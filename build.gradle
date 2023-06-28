@@ -47,6 +47,7 @@ dependencies {
     implementation 'org.jmonkeyengine:jme3-networking:' + jmeVersion
     implementation 'org.jmonkeyengine:jme3-niftygui:' + jmeVersion
     //implementation 'org.jmonkeyengine:jme3-terrain:' + jmeVersion
+    runtimeOnly    'org.jmonkeyengine:jme3-awt-dialogs:' + jmeVersion
     
     // Physics
     implementation 'com.github.stephengold:Minie:7.6.0+big3'
